@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Project Management</title>
+    <link rel="stylesheet" href="lesson43.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Project Management</h1>
+        <form id="projectForm">
+            <label for="projectName">Project Name</label>
+            <input type="text" id="projectName" name="projectName" required>
+
+            <label for="assignedTo">Assigned to</label>
+            <select id="assignedTo" name="assignedTo">
+                <option value="erMerryPetision">Er Merry Petision</option>
+               
+            </select>
+
+            <label for="startDate">Start Date</label>
+            <input type="date" id="startDate" name="startDate" required>
+
+            <label for="endDate">End Date</label>
+            <input type="date" id="endDate" name="endDate" required>
+
+            <label>Priority</label>
+            <div class="priority">
+                <input type="radio" id="high" name="priority" value="High" required>
+                <label for="high">High</label>
+                <input type="radio" id="average" name="priority" value="Average">
+                <label for="average">Average</label>
+                <input type="radio" id="low" name="priority" value="Low">
+                <label for="low">Low</label>
+            </div>
+
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <button type="submit">submit</button>
+            <button type="button" id="clearButton">clear</button>
+        </form>
+    </div>
+
+</body>
+</html>
