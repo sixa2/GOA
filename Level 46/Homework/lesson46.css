@@ -1,0 +1,266 @@
+body{
+    background-color: black;
+  }
+
+  .menu{
+    color: rgb(255, 255, 255);
+    margin-top: 250px;
+  }
+  
+  .sidebar .logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .nav-main {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .nav-main a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  
+  .content {
+    margin-left: 250px; 
+    padding: 20px;
+  }
+  
+  .logo-container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .logo-container .logo {
+    margin-right: 10px; 
+  }
+  
+  .logo-container .logo,
+  .logo-container h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+   
+  .vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    font-size: 24px; 
+    color: white;
+    text-align: right;
+    margin-left: 20px; 
+  }
+  
+  .article-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:100px;
+    background: repeating-linear-gradient(
+      130deg,
+      #303030,
+      #4e4e4e  7px,
+      #303030  5px,
+      #7a7a7a 7px
+    );
+  }
+  
+  .left-column {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  body{
+    background-color: #323232;
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
+  .sidebar {
+    width: 250px; 
+    height: 100%; 
+    background-color: #333; 
+    background: 
+          repeating-linear-gradient(90deg, transparent, transparent 60px, #303030 60px, #343434 80px),
+          repeating-linear-gradient(180deg, transparent, transparent 60px, #303030  60px,#343434 80px),
+          #323232;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-right: 1px solid #7c7979; 
+    margin-right: 0;
+  }
+  
+  .menu{
+    color: white;
+    margin-top: 250px;
+  }
+  
+  .sidebar .logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .nav-main {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .nav-main a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  
+  .content {
+    margin-left: 250px; 
+    padding: 20px;
+  }
+  
+  .logo-container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .logo-container .logo {
+    margin-right: 10px; 
+  }
+  
+  .logo-container .logo,
+  .logo-container h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    font-size: 24px; 
+    color: white;
+    text-align: right;
+    margin-left: 20px; 
+  }
+  
+  .article-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:100px;
+    background: repeating-linear-gradient(
+      130deg,
+      #303030,
+      #4e4e4e  7px,
+      #303030  5px,
+      #7a7a7a 7px
+    );
+  }
+  
+  .left-column {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    margin-right: 10px; 
+    margin-top:190px;
+  }
+  
+  .word-art {
+    font-size: 36px;
+    background: linear-gradient(to right, white 30%, red 10%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  p{
+    color:white;
+  }
+  
+  .details {
+    background: transparent;
+    margin-top: 20px; 
+    border: 2px solid rgb(102, 102, 102);
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .details:hover {
+    background: lightgray; 
+    color: black; 
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container {
+    position: relative;
+  }
+  
+  
+  .text {
+    font-size: 20px;
+    position: relative; 
+    color: white;
+    z-index: 1; 
+    white-space: pre-line;
+  }
+  
+  .background-number {
+    font-size: 108px; 
+    position: absolute; 
+    top: -120px; 
+    left: 0; 
+    opacity: 0.4; 
+    z-index: 0; 
+    color:#ff0000
+  }
+  
+  .info {
+    margin-top: 0; 
+    color: gray;
+    margin-right: 20px;
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    
+  }
+  
+  .login-btn {
+    background-color: #ff0000; 
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px; 
+    text-align: center;
+  }
+  

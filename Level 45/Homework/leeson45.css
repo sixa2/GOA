@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead tr {
+    background-color: lightpink;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 30px 10px;
+}
+
+tbody tr {
+    border-bottom:white;
+    ;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color:lightgray;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid lightpink;
+}
