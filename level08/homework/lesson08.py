@@ -1,0 +1,23 @@
+print(10 > 5)
+print(3 > 7) 
+print(15 > 15) 
+print(20 > 10)
+print(-5 > -10) 
+
+print(5 < 10)  
+print(7 < 3)   
+print(15 < 15) 
+print(10 < 20)
+print(-10 < -5) 
+
+print(10 == 10)  
+print(10 == 5) 
+print(15 == 15) 
+print(20 == 10)  
+print(-5 == -5) 
+
+print(10 >= 5)  
+print(3 >= 7)   
+print(15 >= 15) 
+print(20 >= 10) 
+print(-5 >= -10) 

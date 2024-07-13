@@ -1,0 +1,33 @@
+# 1
+item_price = 26 
+item_quantity = 4 
+total_cost = item_price * item_quantity  
+print("total cost:", total_cost)
+
+# 2
+my_age = 25
+sister_age = 50
+print("my age in 10 years:", my_age + 10)
+print("sisters age in 10 years:", sister_age + 10)
+
+#3
+num1 = 8 
+num2 = 2 
+print("sum:", num1 + num2)
+print("subtraction:", num1 - num2)
+print("multiplication:", num1 * num2)
+print("devidion:", num1 / num2)
+
+#4
+name = "ბექა"  
+age = 20 
+print("same:", name)
+print("age:", age)
+
+#5
+my_age = 18
+parent_age = 57 
+my_age_in_10 = my_age + 10
+parent_age_in_10 = parent_age + 10
+times_older = parent_age_in_10 / my_age_in_10
+print("10 წელში რამდენჯერ მეტი იქნება მშობლის ასაკი ჩემსაზე:", times_older)
