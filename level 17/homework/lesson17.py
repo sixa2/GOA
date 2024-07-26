@@ -11,7 +11,7 @@ print("First element:", numbers[0])
 print("Last element:", numbers[-1])
 
 
-
+   
 
 numbers = list(range(10, 21))
 for i in range(len(numbers)):
